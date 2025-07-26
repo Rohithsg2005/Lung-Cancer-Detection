@@ -14,7 +14,7 @@ def bottleneck(x, shrinkage=False):
     print('resnet block, shrinkage:{}'.format(shrinkage))
     print(x.get_shape())
 
-    input_filters = x.get_shape()[4].value
+    input_filters =x.get_shape()[4].value
     keep_filters = input_filters // 2 if shrinkage else input_filters // 4
     output_filters = input_filters * 2 if shrinkage else input_filters
     first_strides = (2, 2, 2) if shrinkage else (1, 1, 1)

@@ -1,5 +1,5 @@
 # Global
-DATASET_PATH = './dataset'
+DATASET_PATH =  './dataset'
 ANNOTATIONS_PATH = './dataset/csv'
 #ANNOTATIONS_PATH = '/input/Tianchi/dataset/csv'
 PREPROCESS_PATH = './preprocess'

@@ -4,7 +4,7 @@ from generators import get_classify_batch
 from model_VGG import get_simplified_VGG_classifier, get_full_VGG_classifier
 from model_Inception import get_Inception_classifier
 from model_DenseNet import get_DenseNet_classifier
-from model_ResNet import get_ResNet_classifier
+from model_ResNet  import get_ResNet_classifier
 import time
 
 def classify_train():

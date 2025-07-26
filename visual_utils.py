@@ -8,7 +8,7 @@ def plot_slices(img, title='', box=None):
     print(title)
 
     fig, axs = plt.subplots(4, 4, figsize=(16, 16), sharex=True, sharey=True)
-    c, c_step = 0, img.shape[2] // PLOT_NUM
+    c, c_step =  0, img.shape[2] // PLOT_NUM
 
     c = img.shape[2] // 4
     c_step = c_step // 2

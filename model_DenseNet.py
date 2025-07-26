@@ -5,7 +5,7 @@ from config import *
 
 def bn_relu_conv(x, filters, kernel_size=(3, 3, 3)):
     x = BatchNormalization()(x)
-    x = Activation('relu')(x)
+    x =  Activation('relu')(x)
     x = Conv3D(filters=filters, kernel_size=kernel_size, padding='same')(x)
 
     return x

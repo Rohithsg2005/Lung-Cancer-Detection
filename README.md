@@ -20,7 +20,7 @@
 - model_UNet.py # UNet model definition
 
 - train_classificaion.py # Step 3, classificaiton with VGG/Inception/ResNet/DenseNet
-- model_VGG.py # VGG model definition
+- model _VGG.py # VGG model definition
 - model_Inception.py # Inception model definition
 - model_ResNet.py # ResNet model definition
 - model_DenseNet.py # DenseNet model definition
